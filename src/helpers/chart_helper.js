@@ -2,8 +2,8 @@ const ChartHelper = function(beers) {
   const beersData = [];
   for(beverage of beers) {
     beersData.push({
-      name: beverage.name,
-      y: beverage.abv
+      name: beverage.name, //The Doll
+      y: beverage.abv // %4.0
     });
   }
 

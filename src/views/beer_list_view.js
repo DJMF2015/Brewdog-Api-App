@@ -27,6 +27,10 @@ BeerListView.prototype.render = function () {
   description.textContent = `Beer: ${this.beerData.description}`;
   container.appendChild(description);
 
+  const ingredient = document.createElement('p');
+  ingredient.textContent = `Food Pairing: ${this.beerData.food_pairing[0]}`;
+  container.appendChild(ingredient);
+
   console.log(description);
   this.parentElement.appendChild(container);
 
