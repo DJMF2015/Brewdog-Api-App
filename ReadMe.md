@@ -1,7 +1,7 @@
 ## Brewdog Api Application
 
-### Simple example of pubs-sub pattern using webpack and pure javascript
+### an example using publiser-subscriber pattern, webpack and vanilla javascript to filter 3rd party Rest API
 
-#### Data extracted, parsed and pulled via PunkApi into the application Views
+#### Data extracted from PunkApi
 
 API can be viewed here: https://punkapi.com/
